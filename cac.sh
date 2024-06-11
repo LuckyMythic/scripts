@@ -18,3 +18,4 @@ install ()
     chmod 777 ./root/Desktop/Google
 
 }
+main
