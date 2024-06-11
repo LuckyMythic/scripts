@@ -12,10 +12,10 @@ install ()
     apt --fix-broken install
 
     # Create shortcut to run google
-    touch ./root/Desktop/Google
-    echo '#!/bin/bash' > ./root/Desktop/Google
-    echo 'google-chrome-stable --no-sandbox' >> ./root/Desktop/Google
-    chmod 777 ./root/Desktop/Google
+    touch /root/Desktop/Google
+    echo '#!/bin/bash' > /root/Desktop/Google
+    echo 'google-chrome-stable --no-sandbox' >> /root/Desktop/Google
+    chmod 777 /root/Desktop/Google
 
 }
 main
