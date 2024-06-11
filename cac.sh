@@ -160,7 +160,7 @@ chrome_install ()
 {
     # Update and install google while fixing any errors
     wget -O google-chrome-stable_current_amd64.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-    dpkg -i "$DWNLD_DIR/google-chrome-stable_current_amd64.deb"
+    dpkg -i ../root/Downloads/google-chrome-stable_current_amd64.deb
 
     # Create shortcut to run google
     alias google="google-chrome-stable --no-sandbox"
