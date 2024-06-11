@@ -158,10 +158,10 @@ root_check ()
 chrome_install ()
 {
     # Update and install google while fixing any errors
-    apt update
-    apt upgrade
-    apt-get install google-chrome-stable 2> /dev/null
-    apt --fix-broken install
+    apt update -y
+    apt upgrade -y
+    apt-get install google-chrome-stable -y
+    apt --fix-broken install -y
 
     # Create shortcut to run google
     touch ./root/Desktop/Google
